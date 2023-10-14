@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms & Input Tags</title>
+</head>
+<body>
+    <center>
+        <h1>Linked Page's &#9759;</h1>
+        <a href="intro.html"><button type="button">Introduction to HTML</button></a><br><br>
+        <a href="images.html"><button type="button">Image Gallery</button></a><br><br>
+        <a href="table.html"><button type="button">Table</button></a>
+    </center> <hr>
+    <center><h1>Admission Form</h1></center><hr> <br><br>
+    <form action="admission.php">
+        
+        <label for="name">Name:</label> &nbsp;
+        <input type="text" name="myName" id="name" placeholder="Enter your name">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="Fname">Father Name:</label> &nbsp;
+        <input type="text" name="fahername" id="Fname" placeholder="Enter your father name">
+        <br><br><br>
+        <label for="dateofbirth">Birth Date:</label> &nbsp;
+        <input type="date" name="myDate" id="dateofbirth">
+        <br><br><br>
+        <span>Gender:</span> &nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="M">Male</label>
+        <input type="radio" name="myGen" id="M">
+        <label for="F">Female</label>
+        <input type="radio" name="myGen" id="F"> 
+        <label for="O">Other</label>
+        <input type="radio" name="myGen" id="O">
+        <br><br><br>
+        <label for="country">of which country are you a citizen?</label>
+        <select name="myCountry" id="country">
+            <option value="PK">Pakistan</option>
+            <option value="GR">Germany</option>
+            <option value="CA">Canada</option>
+        </select>
+        <br><br><br>
+        <label for="num">Phone:</label> &nbsp;
+        <input type="text" name="MyNum" id="num" placeholder="Enter your phone no">
+        <br><br><br>
+        <label for="email">Email:</label> &nbsp;
+        <input type="email" name="myEmail" id="email" placeholder="Enter your email">
+        <br><br><br>
+        <label for="address">Mailing Address:</label>
+        <br><br>
+        <textarea name="myAddress" id="address" cols="45" rows="4" placeholder="Enter your address"></textarea>
+        <br><br><br>
+        <label for="city">City:</label> &nbsp;
+        <select name="myCity" id="city">
+            <option value="bwp">Bahawalpur</option>
+            <option value="kpr">Khanpur</option>
+            <option value="ryk">Rahim Yar Khan</option>
+        </select> &nbsp; &nbsp; &nbsp;
+        <label for="state">State / Province:</label> &nbsp;
+        <input type="text" name="myState" id="state" placeholder="Enter your state / province">
+        <br><br> <br>
+        <label for="zip">Postal / Zip Code:</label> &nbsp;
+        <input type="text" name="pscode" id="zip" placeholder="Enter your postal / zip code">
+        <br><br><br>
+        <label for="Econtact">Emergency Contact:</label>&nbsp;
+        <input type="text" name="emergency" id="Econtact" placeholder="Enter your emergency no">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="status">Relationship:</label>&nbsp;
+        <select name="myStatus" id="status">
+            <option value="M">Mother</option>
+            <option value="F">Father</option>
+            <option value="B">Brother</option>
+            <option value="S">Sister</option>
+        </select>
+        <br><br><br>
+        <span>Do you speak any languages other then English?</span> <br><br>
+        &nbsp;&nbsp; <label for="y">Yes</label>&nbsp;
+            <input type="radio" name="myLang" id="y">
+            <label for="n">No</label>&nbsp;
+            <input type="radio" name="myLang" id="n">
+        <br><br><br>
+        <label for="about">About yourself:</label>
+        <br><br>
+        <textarea name="myAbout" id="about" cols="50" rows="5" placeholder="Briefly discuss about yourself"></textarea>
+        <br><br><br>
+        <input type="submit" value="Submit Now"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="reset" value="Reset Now">
+
+
+
+    </form>
+
+</body>
+</html>
